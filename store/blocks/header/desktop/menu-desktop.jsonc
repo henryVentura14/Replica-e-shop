@@ -1,0 +1,58 @@
+{
+    "header-layout.desktop": {
+        "children": [
+            "sticky-layout#desktop"
+        ]
+    },
+    "sticky-layout#desktop": {
+        "props": {
+            "blockClass": "sticky-header"
+        },
+        "children": [
+            "flex-layout.row#desktop"
+        ]
+    },
+    "flex-layout.row#desktop": {
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": false
+        },
+        "children": [
+            "menu#menu",
+            "flex-layout.col#logo-desktop",
+            "flex-layout.col#spacer",
+            "search-bar",
+            "login",
+            "minicart.v2"
+        ]
+    },
+    "flex-layout.col#spacer": {
+        "props": {
+            "width": "grow"
+        }
+    },
+    "flex-layout.col#logo-desktop": {
+        "props": {
+            "verticalAlign": "middle"
+        },
+        "children": [
+            "logo#desktop"
+        ]
+    },
+    "logo#desktop": {
+        "props": {
+            "title": "Logo",
+            "href": "/",
+            "url": "assets/images/linio-desktop.svg",
+            "width": "80"
+        }
+    },
+    "menu#menu": {
+        "children": [
+            "menu-item#menu-all"
+        ]
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "menu-item#menu-all": {
+        "props": {
+            "id": "menu-item-menu-all",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "all",
+                "href": "",
+                "tagTitle": "Category",
+                "text": "Category"
+            }
+        },
+        "blocks": [
+            "submenu#menu-all"
+        ]
+    },
+    "submenu#menu-all": {
+        "children": [
+            "flex-layout.row#all-1"
+        ]
+    },
+    "flex-layout.row#all-1": {
+        "children": [
+            "menu#menu-all-category-1"
+        ],
+        "props": {
+            "blockClass": "flex-row-header"
+        }
+    },
+    "menu#menu-all-category-1": {
+        "props": {
+            "categoryId": 1,
+            "orientation": "vertical",
+            "blockClass": [
+                "menu-header",
+                "menu-all"
+            ]
+        }
+    }
+}

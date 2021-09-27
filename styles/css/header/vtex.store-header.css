@@ -1,0 +1,19 @@
+:global(.vtex-sticky-layout-0-x-container) {
+  background-color: #3d3d3d !important;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+:global(.vtex-store-components-3-x-logoContainer) {
+  display: flex;
+  padding: 10px;
+  margin: 0;
+}
+
+:global(.vtex-store-components-3-x-sizeMobile) {
+  max-width: 90px;
+  max-height: 40px;
+  min-width: 32px;
+}
