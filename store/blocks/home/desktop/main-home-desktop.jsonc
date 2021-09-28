@@ -1,0 +1,9 @@
+{
+    "responsive-layout.desktop": {
+        "title": "main-home-desktop",
+        "children": [
+            "slider-layout#main-slider-desktop",
+            "slider-layout#second-slider-desktop"
+        ]
+    }
+}

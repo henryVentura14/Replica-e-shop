@@ -1,11 +1,13 @@
 {
   "header": {
+    "title": "main-header",
     "blocks": [
       "header-layout.desktop",
       "header-layout.mobile"
     ]
   },
   "header.full": {
+    "title": "main-header-full",
     "blocks": [
       "header-layout.desktop",
       "header-layout.mobile"

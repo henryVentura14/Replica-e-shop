@@ -1,5 +1,6 @@
 {
     "header-layout.desktop": {
+        "title": "header-layout",
         "children": [
             "sticky-layout#desktop"
         ]
@@ -47,10 +48,13 @@
             "title": "Logo",
             "href": "/",
             "url": "assets/images/linio-desktop.svg",
-            "width": "80"
+            "width": "100"
         }
     },
     "menu#menu": {
+        "props": {
+            "blockClass": "menu"
+        },
         "children": [
             "menu-item#menu-all"
         ]

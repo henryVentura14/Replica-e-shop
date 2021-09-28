@@ -1,0 +1,9 @@
+{
+    "responsive-layout.mobile": {
+        "title": "main-home-mobile",
+        "children": [
+            "slider-layout#main-slider-mobile",
+            "slider-layout#second-slider-mobile"
+        ]
+    }
+}

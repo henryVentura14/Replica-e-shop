@@ -1,0 +1,25 @@
+{
+    "slider-layout#second-slider-mobile": {
+        "title": "second-slider-mobile",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": "carousel",
+            "fullWidth": true
+        },
+        "children": [
+            "image#second-slider-mobile"
+        ]
+    },
+    "image#second-slider-mobile": {
+        "props": {
+            "src": "assets/images/second-slider-mobile.png",
+            "maxWidth": "100%"
+        }
+    }
+}
