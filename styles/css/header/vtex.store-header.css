@@ -1,6 +1,11 @@
 :global(.vtex-sticky-layout-0-x-container) {
   background-color: #3d3d3d !important;
 }
+:global(.vtex-sticky-layout-0-x-container--sticky-header-desktop) {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
 
 :global(.vtex-store-components-3-x-logoContainer) {
   display: flex;

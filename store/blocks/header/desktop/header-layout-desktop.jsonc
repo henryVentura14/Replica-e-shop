@@ -7,7 +7,7 @@
     },
     "sticky-layout#desktop": {
         "props": {
-            "blockClass": "sticky-header"
+            "blockClass": "sticky-header-desktop"
         },
         "children": [
             "flex-layout.row#desktop"
@@ -25,7 +25,7 @@
             "menu#menu",
             "flex-layout.col#logo-desktop",
             "flex-layout.col#spacer",
-            "search-bar",
+            "search-bar#desktop",
             "login",
             "minicart.v2"
         ]
@@ -33,6 +33,14 @@
     "flex-layout.col#spacer": {
         "props": {
             "width": "grow"
+        }
+    },
+    "search-bar#desktop": {
+        "title": "search bar desktop",
+        "props": {
+            "placeholder":"Busca productos",
+            "maxWidth": "100%",
+            "blockClass": "search-bar-desktop"
         }
     },
     "flex-layout.col#logo-desktop": {

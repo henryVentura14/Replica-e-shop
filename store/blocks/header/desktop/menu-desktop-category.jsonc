@@ -1,5 +1,6 @@
 {
     "menu-item#menu-all": {
+        "title":"menu-desktop",
         "props": {
             "id": "menu-item-menu-all",
             "type": "custom",
@@ -8,8 +9,8 @@
             "itemProps": {
                 "type": "all",
                 "href": "",
-                "tagTitle": "Category",
-                "text": "Category"
+                "tagTitle": "Categorías",
+                "text": "Categorías"
             }
         },
         "blocks": [
