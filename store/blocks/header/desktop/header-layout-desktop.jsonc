@@ -26,6 +26,7 @@
             "flex-layout.col#logo-desktop",
             "flex-layout.col#spacer",
             "search-bar#desktop",
+            "flex-layout.col#logo-track",
             "login",
             "minicart.v2"
         ]
@@ -38,7 +39,7 @@
     "search-bar#desktop": {
         "title": "search bar desktop",
         "props": {
-            "placeholder":"Busca productos",
+            "placeholder": "Busca productos",
             "maxWidth": "100%",
             "blockClass": "search-bar-desktop"
         }
@@ -51,12 +52,20 @@
             "logo#desktop"
         ]
     },
+    "flex-layout.col#logo-track": {
+        "props": {
+            "verticalAlign": "middle"
+        },
+        "children": [
+            "logo#track"
+        ]
+    },
     "logo#desktop": {
         "props": {
             "title": "Logo",
             "href": "/",
             "url": "assets/images/linio-desktop.svg",
-            "width": "100"
+            "blockClass": "logo"
         }
     },
     "menu#menu": {
@@ -66,5 +75,13 @@
         "children": [
             "menu-item#menu-all"
         ]
+    },
+    "logo#track": {
+        "props": {
+            "title": "Track",
+            "href": "/sigue-tu-compra",
+            "url": "/arquivos/re-linio-truck.svg",
+            "blockClass": "track"
+        }
     }
 }

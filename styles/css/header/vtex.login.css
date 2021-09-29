@@ -1,0 +1,225 @@
+.box {
+  position: fixed;
+  right: 0 !important;
+  top: 110px;
+  left: 75% !important;
+}
+.button :global(.vtex-button) {
+  border: 1px solid black;
+  background: none;
+}
+.button :first-child :first-child :first-child {
+  font-size: 14px;
+  color: black;
+}
+.container {
+  margin-left: 15px !important;
+}
+.container .label {
+  display: flex;
+  padding: 0;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 34px;
+  width: 40px;
+  font-size: 0px;
+  margin-top: 0px;
+  color: #434343;
+}
+.profile::before,
+.container .label::before {
+  content: "";
+  background: url(/arquivos/re-linio-user.svg) no-repeat;
+  width: 36px;
+  height: 36px;
+  display: inline-block;
+  background-size: contain;
+  filter: invert(100%) sepia(0%) saturate(7485%) hue-rotate(159deg)
+    brightness(110%) contrast(103%);
+}
+.profile::before,
+.container .label::after {
+  content: "";
+  margin-left: -2px;
+  font-weight: 700;
+}
+@media (max-width: 768px) {
+  .profile::before,
+  .container .label::after {
+    margin-left: 0;
+    margin-left: -2px !important;
+  }
+}
+.profile {
+  padding: 0;
+  /* font-size: 12px;
+    */
+  font-size: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1px;
+}
+@media all and (max-width: 768px) {
+  .profile {
+    margin-top: 5px;
+  }
+}
+@media all and (max-width: 640px) {
+  .profile {
+    margin-top: 1px;
+  }
+}
+.profile::before {
+  content: "";
+  background: url(/arquivos/re-linio-user.svg) no-repeat;
+  width: 36px;
+  height: 36px;
+  display: inline-block;
+  background-size: contain;
+  margin-right: -2px;
+  filter: invert(100%) sepia(0%) saturate(7485%) hue-rotate(159deg)
+    brightness(110%) contrast(103%);
+}
+.profile::after {
+  content: "CUENTA";
+  font-size: 0px;
+  color: black;
+}
+.arrowUp {
+  display: none;
+}
+.arrowUp {
+  /* box-shadow: 0px 5px 30px #000;
+    */
+  box-shadow: -2px 2px 7px 0px rgba(0, 0, 0, 0.7);
+}
+.contentContainer {
+  /* box-shadow: 0px 5px 30px #000;
+    */
+  box-shadow: -2px 2px 7px 0px rgba(0, 0, 0, 0.7);
+}
+.container :first-child :global(.vtex-button) {
+  width: 45px;
+  background: transparent;
+  border: 0 !important;
+  outline: none;
+}
+.contentForm {
+  min-width: inherit;
+  padding: 0;
+  width: 100%;
+  margin: 0 1em;
+}
+.accountOptions :first-child {
+  margin: 0;
+}
+.accountOptions :first-child :first-child {
+  text-decoration: none;
+}
+.accountOptions :first-child :first-child :first-child {
+  color: black;
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+  justify-content: space-between;
+  text-transform: capitalize;
+}
+.accountOptions :last-child {
+  margin: 0;
+}
+.accountOptions :last-child :first-child {
+  color: black;
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+  justify-content: space-between;
+  text-transform: capitalize;
+}
+.accountOptions :last-child :first-child:hover {
+  background: transparent;
+}
+:global(.vtex-store-header-2-x-headerRowContainer) .container {
+  float: none;
+}
+:global(.vtex-store-header-2-x-headerRowContainer) .container .buttonLink {
+  width: 45px;
+  height: 40px;
+  padding: 0;
+  display: flex;
+  align-content: center;
+}
+@media all and (max-width: 639px) {
+  :global(.vtex-store-header-2-x-headerRowContainer) .container .buttonLink {
+    margin-top: 0px;
+  }
+}
+:global(.vtex-store-header-2-x-headerRowContainer)
+  .container
+  .buttonLink
+  :global(.vtex-button) {
+  width: 45px;
+  height: 40px;
+  border: none;
+}
+:global(.vtex-store-header-2-x-headerRowContainer)
+  .container
+  .buttonLink
+  :global(.vtex-button)
+  :global(.vtex-button__label) {
+  padding: 0 !important;
+  height: 40px;
+}
+:global(.vtex-store-header-2-x-headerRowContainer)
+  .container
+  .buttonLink
+  :global(.vtex-button)
+  :global(.vtex-button__label)
+  :first-child {
+  margin: 0;
+}
+:global(.vtex-store-header-2-x-headerRowContainer)
+  .container
+  .buttonLink
+  .profile {
+  font-size: 0px;
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+:global(.vtex-store-header-2-x-headerRowContainer)
+  .container
+  .buttonLink
+  .profile::before {
+  display: none;
+}
+@media (max-width: 1023px) {
+  :global(.vtex-store-header-2-x-headerRowContainer)
+    .container
+    .buttonLink
+    .profile {
+    font-size: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  :global(.vtex-store-header-2-x-headerRowContainer)
+    .container
+    .buttonLink
+    .profile::before {
+    content: "";
+    background: url(/arquivos/userll.svg) no-repeat;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-size: contain;
+    margin-right: -2px;
+  }
+}
+
+:global(.vtex-login-2-x-content) {
+  margin-top: -3.5rem;
+}

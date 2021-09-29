@@ -1,0 +1,53 @@
+.minicartContainer {
+  margin-right: 15px;
+}
+@media (max-width: 768px) {
+  .minicartContainer {
+    margin-right: 7px;
+  }
+}
+.minicartContainer .openIconContainer {
+  padding: 0;
+}
+.minicartContainer :global(.vtex-button) {
+  padding: 0;
+  margin-top: 2px;
+  border-bottom: 0px;
+}
+.minicartContainer :global(.vtex-button):hover {
+  background-color: transparent;
+}
+.minicartContainer :global(.vtex-button) :global(.vtex-button__label) {
+  padding: 0 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+.minicartContainer :global(.vtex-button) :global(.vtex-button__label)::before {
+  content: url(/arquivos/re-linio-cart.svg);
+  width: 36px;
+  height: 36px;
+  display: block;
+  margin-bottom: 0px;
+  filter: invert(100%) sepia(0%) saturate(7485%) hue-rotate(159deg)
+    brightness(110%) contrast(103%);
+  margin-left: 15px !important;
+}
+.minicartContainer :global(.vtex-button) :global(.vtex-button__label)::after {
+  content: "CARRO";
+  color: #434343;
+  font-size: 0px;
+  margin-bottom: 0px;
+  margin-left: 4px;
+}
+.minicartContainer
+  :global(.vtex-button)
+  :global(.vtex-button__label)
+  .cartIcon {
+  display: none;
+}
+.minicartContainer .minicartQuantityBadgeDefault {
+  top: -35px;
+  right: -23px;
+}
