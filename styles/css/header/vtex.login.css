@@ -30,13 +30,11 @@
 .profile::before,
 .container .label::before {
   content: "";
-  background: url(/arquivos/re-linio-user.svg) no-repeat;
-  width: 36px;
-  height: 36px;
+  background: url(assets/icons/user.svg) no-repeat;
+  width: 28px;
+  height: 28px;
   display: inline-block;
   background-size: contain;
-  filter: invert(100%) sepia(0%) saturate(7485%) hue-rotate(159deg)
-    brightness(110%) contrast(103%);
 }
 .profile::before,
 .container .label::after {
@@ -74,14 +72,12 @@
 }
 .profile::before {
   content: "";
-  background: url(/arquivos/re-linio-user.svg) no-repeat;
-  width: 36px;
-  height: 36px;
+  background: url(assets/icons/user.svg) no-repeat;
+  width: 28px;
+  height: 28px;
   display: inline-block;
   background-size: contain;
   margin-right: -2px;
-  filter: invert(100%) sepia(0%) saturate(7485%) hue-rotate(159deg)
-    brightness(110%) contrast(103%);
 }
 .profile::after {
   content: "CUENTA";

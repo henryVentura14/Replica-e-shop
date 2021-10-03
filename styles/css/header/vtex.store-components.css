@@ -9,19 +9,13 @@
   padding: 0 !important;
   height: 38px !important;
   width: 38px !important;
-  filter: invert(100%) sepia(0%) saturate(7485%) hue-rotate(159deg)
-    brightness(110%) contrast(103%);
 }
+
 :global(.vtex-store-components-3-x-sizeDesktop) {
   min-width: 10px;
 }
 
 .autoCompleteOuterContainer--search-bar-desktop :global(.vtex-input__suffix) {
   background-color: #ff5500;
-}
-
-.searchBarIcon--search-bar-desktop {
-  margin-left: 15px !important;
-  filter: invert(100%) sepia(0%) saturate(7485%) hue-rotate(159deg)
-    brightness(110%) contrast(103%);
+  width: 1rem;
 }

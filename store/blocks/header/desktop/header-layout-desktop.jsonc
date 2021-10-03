@@ -57,7 +57,7 @@
             "verticalAlign": "middle"
         },
         "children": [
-            "logo#track"
+            "link#track"
         ]
     },
     "logo#desktop": {
@@ -76,12 +76,18 @@
             "menu-item#menu-all"
         ]
     },
-    "logo#track": {
+    "link#track": {
         "props": {
-            "title": "Track",
-            "href": "/sigue-tu-compra",
-            "url": "/arquivos/re-linio-truck.svg",
-            "blockClass": "track"
+            "href": "/siguetucompra.com",
+            "children": [
+                "icon"
+            ]
+        }
+    },
+    "icon": {
+        "props": {
+            "id": "truck",
+            "size": 28
         }
     }
 }
