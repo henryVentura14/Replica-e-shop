@@ -2,10 +2,11 @@
     "header-layout.desktop": {
         "title": "header-layout",
         "children": [
-            "sticky-layout#desktop"
+            "sticky-layout#desktop-top",
+            "sticky-layout#desktop-sub"
         ]
     },
-    "sticky-layout#desktop": {
+    "sticky-layout#desktop-top": {
         "props": {
             "blockClass": "sticky-header-desktop"
         },

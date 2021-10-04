@@ -1,0 +1,23 @@
+{
+    "sticky-layout#desktop-sub": {
+        "props": {
+            "blockClass": "sticky-header-desktop2"
+        },
+        "children": [
+            "flex-layout.row#desktop2"
+        ]
+    },
+    "flex-layout.row#desktop2": {
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": false
+        },
+        "children": [
+            "menu#menu",
+            "flex-layout.col#spacer"
+        ]
+    }
+}
