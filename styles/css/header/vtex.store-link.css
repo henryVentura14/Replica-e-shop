@@ -1,0 +1,6 @@
+.childrenContainer--track{
+    margin-left: 25px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}

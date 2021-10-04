@@ -2,7 +2,8 @@
   width: 740px;
   font-family: Arial;
   font-weight: 100;
-  border: none;
+  border: none !important;
+  outline: none !important;
 }
 .logoImage--track {
   margin-left: 15px;
@@ -18,4 +19,6 @@
 .autoCompleteOuterContainer--search-bar-desktop :global(.vtex-input__suffix) {
   background-color: #ff5500;
   width: 1rem;
+  border: none !important;
+  outline: none !important; 
 }

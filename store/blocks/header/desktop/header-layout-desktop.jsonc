@@ -26,7 +26,7 @@
             "flex-layout.col#logo-desktop",
             "flex-layout.col#spacer",
             "search-bar#desktop",
-            "flex-layout.col#logo-track",
+            "flex-layout.col#track",
             "login",
             "minicart.v2"
         ]
@@ -52,14 +52,6 @@
             "logo#desktop"
         ]
     },
-    "flex-layout.col#logo-track": {
-        "props": {
-            "verticalAlign": "middle"
-        },
-        "children": [
-            "link#track"
-        ]
-    },
     "logo#desktop": {
         "props": {
             "title": "Logo",
@@ -76,18 +68,28 @@
             "menu-item#menu-all"
         ]
     },
-    "link#track": {
+    "flex-layout.col#track": {
         "props": {
-            "href": "/siguetucompra.com",
-            "children": [
-                "icon"
-            ]
+            "verticalAlign": "middle"
+        },
+        "children": [
+            "link#track"
+        ]
+    },
+    "link#track": {
+        "children": [
+            "icon#truck"
+        ],
+        "props": {
+            "href": "https://mobile.servientrega.com/WebSitePortal/RastreoEnvio.html",
+            "target": "_blank",
+            "blockClass": "track"
         }
     },
-    "icon": {
+    "icon#truck": {
         "props": {
-            "id": "truck",
-            "size": 28
+            "id": "truck-icon",
+            "size": 36
         }
     }
 }

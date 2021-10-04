@@ -13,7 +13,7 @@
   color: black;
 }
 .container {
-  margin-left: 15px !important;
+  margin-left: 20px !important;
 }
 .container .label {
   display: flex;
@@ -24,15 +24,15 @@
   height: 34px;
   width: 40px;
   font-size: 0px;
-  margin-top: 0px;
+  margin-top: -4px;
   color: #434343;
 }
 .profile::before,
 .container .label::before {
   content: "";
   background: url(assets/icons/user.svg) no-repeat;
-  width: 28px;
-  height: 28px;
+  width: 30px;
+  height: 30px;
   display: inline-block;
   background-size: contain;
 }
@@ -73,14 +73,12 @@
 .profile::before {
   content: "";
   background: url(assets/icons/user.svg) no-repeat;
-  width: 28px;
-  height: 28px;
+  width: 30px;
+  height: 30px;
   display: inline-block;
   background-size: contain;
-  margin-right: -2px;
 }
 .profile::after {
-  content: "CUENTA";
   font-size: 0px;
   color: black;
 }
@@ -98,8 +96,7 @@
   box-shadow: -2px 2px 7px 0px rgba(0, 0, 0, 0.7);
 }
 .container :first-child :global(.vtex-button) {
-  width: 45px;
-  background: transparent;
+  width: 60px;
   border: 0 !important;
   outline: none;
 }
@@ -133,9 +130,6 @@
   display: flex;
   justify-content: space-between;
   text-transform: capitalize;
-}
-.accountOptions :last-child :first-child:hover {
-  background: transparent;
 }
 :global(.vtex-store-header-2-x-headerRowContainer) .container {
   float: none;
@@ -207,7 +201,7 @@
     .buttonLink
     .profile::before {
     content: "";
-    background: url(/arquivos/userll.svg) no-repeat;
+    background: url(assets/icons/user.svg) no-repeat;
     width: 20px;
     height: 20px;
     display: inline-block;
