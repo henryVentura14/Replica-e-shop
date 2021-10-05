@@ -1,33 +1,98 @@
 {
-    "menu#websites": {
+    "menu#submenu-header": {
         "props": {
             "orientation": "horizontal",
             "blockClass": "submenu-header",
             "items": [
                 {
-                    "id": "menu-item-shop",
+                    "id": "item-just-today",
                     "type": "custom",
                     "iconId": null,
                     "highlight": false,
                     "itemProps": {
                         "type": "internal",
-                        "href": "#",
+                        "href": "/colection",
                         "noFollow": false,
-                        "tagTitle": "Shop",
-                        "text": "Shop"
+                        "tagTitle": "Solo Hoy",
+                        "text": "Solo Hoy"
                     }
                 },
                 {
-                    "id": "menu-item-about-us",
+                    "id": "item-just-for-you",
                     "type": "custom",
                     "iconId": null,
                     "highlight": false,
                     "itemProps": {
                         "type": "internal",
-                        "href": "/about-us",
+                        "href": "/colection",
                         "noFollow": false,
-                        "tagTitle": "about-us",
-                        "text": "About Us"
+                        "tagTitle": "Solo para Ti",
+                        "text": "Solo para Ti"
+                    }
+                },
+                {
+                    "id": "item-official-stores",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/colection",
+                        "noFollow": false,
+                        "tagTitle": "Tiendas Oficiales",
+                        "text": "Tiendas Oficiales"
+                    }
+                },
+                {
+                    "id": "item-sell-in-linio",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/colection",
+                        "noFollow": false,
+                        "tagTitle": "Vende en Linio",
+                        "text": "Vende en Linio"
+                    }
+                },
+                {
+                    "id": "item-help",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/colection",
+                        "noFollow": false,
+                        "tagTitle": "Ayuda",
+                        "text": "Ayuda"
+                    }
+                },
+                {
+                    "id": "item-falabella-bank",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/colection",
+                        "noFollow": false,
+                        "tagTitle": "Banco Falabella",
+                        "text": "Banco Falabella"
+                    }
+                },
+                {
+                    "id": "item-international",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/colection",
+                        "noFollow": false,
+                        "tagTitle": "Internacional",
+                        "text": "Internacional"
                     }
                 }
             ]
