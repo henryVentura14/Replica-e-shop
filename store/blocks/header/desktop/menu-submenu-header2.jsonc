@@ -14,7 +14,7 @@
     "icon#free-shipping": {
         "props": {
             "id": "shipping-icon",
-            "size": 32,
+            "size": 28,
             "blockClass":"icon-submenu2"
         }
     },
@@ -44,7 +44,7 @@
     "icon#delivery": {
         "props": {
             "id": "delivery-icon",
-            "size": 32,
+            "size": 28,
             "blockClass":"icon-submenu2"
         }
     },
@@ -74,7 +74,7 @@
     "icon#cmr": {
         "props": {
             "id": "cmr-icon",
-            "size": 32
+            "size": 28
         }
     },
     "link#cmr": {
@@ -103,7 +103,7 @@
     "icon#international": {
         "props": {
             "id": "plane-icon",
-            "size": 32,
+            "size": 28,
             "blockClass":"icon-submenu2"
         }
     },
@@ -133,7 +133,7 @@
     "icon#refund": {
         "props": {
             "id": "refund-icon",
-            "size": 32,
+            "size": 28,
             "blockClass":"icon-submenu2"
         }
     },
