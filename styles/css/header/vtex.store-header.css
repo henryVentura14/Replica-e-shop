@@ -35,4 +35,8 @@
   font-size: 14px;
 }
 
+:global(.vtex-menu-2-x-styledLinkContent--submenu-header1):hover {
+  color: #f50;
+  font-size: 14px;
+}
 
