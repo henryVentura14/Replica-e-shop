@@ -1,6 +1,22 @@
-.childrenContainer--track{
-    margin-left: 25px;
-    display: flex;
-    justify-items: center;
-    align-items: center;
+.childrenContainer--track {
+  margin-left: 25px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.label--link-submenu2 {
+  font-size: 14px;
+  color: #666666;
+  text-decoration: none !important;
+  text-transform: none !important;
+}
+
+.link--link-submenu2 {
+  margin-left: 1rem;
+  text-decoration: none !important;
+  text-transform: none !important;
+  display: flex;
+  align-items: center;
+  align-content: center;
+
 }

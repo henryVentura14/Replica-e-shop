@@ -1,0 +1,147 @@
+{
+    "flex-layout.row#content-item1": {
+        "props": {
+            "horizontalAlign": "left",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "blockClass": "content-submenu-item",
+            "colSizing": "auto"
+        },
+        "children": [
+            "image#free-shipping",
+            "link#free-shipping"
+        ]
+    },
+    "image#free-shipping": {
+        "props": {
+            "src": "assets/icons/shipping.png",
+            "maxHeight": 28,
+            "maxWidth": 28,
+            "blockClass": "img-submenu2"
+        }
+    },
+    "link#free-shipping": {
+        "props": {
+            "label": "Envío Gratis",
+            "href": "/linkToGif",
+            "target": "_blank",
+            "blockClass": "link-submenu2"
+        }
+    },
+    "flex-layout.row#content-item2": {
+        "props": {
+            "horizontalAlign": "left",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "blockClass": "content-submenu-item",
+            "colSizing": "auto"
+        },
+        "children": [
+            "image#delivery",
+            "link#delivery"
+        ]
+    },
+    "image#delivery": {
+        "props": {
+            "src": "assets/icons/delivery.png",
+            "maxHeight": 28,
+            "maxWidth": 28,
+            "blockClass": "img-submenu2"
+        }
+    },
+    "link#delivery": {
+        "props": {
+            "label": "Recibe en 48 horas",
+            "href": "/linkToGif",
+            "target": "_blank",
+            "blockClass": "link-submenu2"
+        }
+    },
+    "flex-layout.row#content-item3": {
+        "props": {
+            "horizontalAlign": "left",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "blockClass": "content-submenu-item",
+            "colSizing": "auto"
+        },
+        "children": [
+            "image#cmr",
+            "link#cmr"
+        ]
+    },
+    "image#cmr": {
+        "props": {
+            "src": "assets/icons/cmr.png",
+            "maxHeight": 28,
+            "maxWidth": 28,
+            "blockClass": "img-submenu2"
+        }
+    },
+    "link#cmr": {
+        "props": {
+            "label": "CMR Puntos",
+            "href": "/linkToGif",
+            "target": "_blank",
+            "blockClass": "link-submenu2"
+        }
+    },
+    "flex-layout.row#content-item4": {
+        "props": {
+            "horizontalAlign": "left",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "blockClass": "content-submenu-item",
+            "colSizing": "auto"
+        },
+        "children": [
+            "image#international",
+            "link#international"
+        ]
+    },
+    "image#international": {
+        "props": {
+            "src": "assets/icons/plane.png",
+            "maxHeight": 28,
+            "maxWidth": 28,
+            "blockClass": "img-submenu2"
+        }
+    },
+    "link#international": {
+        "props": {
+            "label": "Productos internacionales",
+            "href": "/linkToGif",
+            "target": "_blank",
+            "blockClass": "link-submenu2"
+        }
+    },
+    "flex-layout.row#content-item5": {
+        "props": {
+            "horizontalAlign": "left",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "blockClass": "content-submenu-item",
+            "colSizing": "auto"
+        },
+        "children": [
+            "image#refund",
+            "link#refund"
+        ]
+    },
+    "image#refund": {
+        "props": {
+            "src": "assets/icons/refund.png",
+            "maxHeight": 28,
+            "maxWidth": 28,
+            "blockClass": "img-submenu2"
+        }
+    },
+    "link#refund": {
+        "props": {
+            "label": "Devoluciones gratis",
+            "href": "/linkToGif",
+            "target": "_blank",
+            "blockClass": "link-submenu2"
+        }
+    }
+}

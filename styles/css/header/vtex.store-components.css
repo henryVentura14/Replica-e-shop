@@ -22,3 +22,7 @@
   border: none !important;
   outline: none !important; 
 }
+
+.imageElement--img-submenu2{
+  margin-left: 4rem;
+}

@@ -12,12 +12,19 @@
             "blockClass": "carousel"
         },
         "children": [
-            "image#second-slider-desktop"
+            "image#second-slider-desktop",
+            "image#second-slider-desktop2"
         ]
     },
     "image#second-slider-desktop": {
         "props": {
             "src": "assets/images/second-slider-desktop.png",
+            "maxWidth": "1180px"
+        }
+    },
+    "image#second-slider-desktop2": {
+        "props": {
+            "src": "assets/images/second-slider-desktop2.png",
             "maxWidth": "1180px"
         }
     }

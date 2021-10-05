@@ -9,7 +9,7 @@
             "blockClass": "header-submenu1"
         },
         "children": [
-            "menu#submenu-header"
+            "menu#submenu-header1"
         ]
     }
 }

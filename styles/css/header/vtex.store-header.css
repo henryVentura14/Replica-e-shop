@@ -30,6 +30,9 @@
   color: #666666;
 }
 
-:global(.vtex-menu-2-x-styledLinkContent--submenu-header) {
+:global(.vtex-menu-2-x-styledLinkContent--submenu-header1) {
   color: #666666;
+  font-size: 14px;
 }
+
+

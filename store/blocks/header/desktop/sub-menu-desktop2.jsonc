@@ -1,0 +1,19 @@
+{
+    "flex-layout.row#desktop-submenu2": {
+        "props": {
+            "horizontalAlign": "left",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": false,
+            "blockClass": "header-submenu2"
+        },
+        "children": [
+            "flex-layout.row#content-item1",
+            "flex-layout.row#content-item2",
+            "flex-layout.row#content-item3",
+            "flex-layout.row#content-item4",
+            "flex-layout.row#content-item5"
+        ]
+    }
+   
+}

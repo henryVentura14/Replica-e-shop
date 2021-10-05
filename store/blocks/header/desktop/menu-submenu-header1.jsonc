@@ -1,8 +1,8 @@
 {
-    "menu#submenu-header": {
+    "menu#submenu-header1": {
         "props": {
             "orientation": "horizontal",
-            "blockClass": "submenu-header",
+            "blockClass": "submenu-header1",
             "items": [
                 {
                     "id": "item-just-today",
