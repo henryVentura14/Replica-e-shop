@@ -8,16 +8,14 @@
             "colSizing": "auto"
         },
         "children": [
-            "image#free-shipping",
             "link#free-shipping"
         ]
     },
-    "image#free-shipping": {
+    "icon#free-shipping": {
         "props": {
-            "src": "assets/icons/shipping.png",
-            "maxHeight": 28,
-            "maxWidth": 28,
-            "blockClass": "img-submenu2"
+            "id": "shipping-icon",
+            "size": 32,
+            "blockClass":"icon-submenu2"
         }
     },
     "link#free-shipping": {
@@ -26,7 +24,10 @@
             "href": "/linkToGif",
             "target": "_blank",
             "blockClass": "link-submenu2"
-        }
+        },
+        "children": [
+            "icon#free-shipping"
+        ]
     },
     "flex-layout.row#content-item2": {
         "props": {
@@ -37,19 +38,20 @@
             "colSizing": "auto"
         },
         "children": [
-            "image#delivery",
             "link#delivery"
         ]
     },
-    "image#delivery": {
+    "icon#delivery": {
         "props": {
-            "src": "assets/icons/delivery.png",
-            "maxHeight": 28,
-            "maxWidth": 28,
-            "blockClass": "img-submenu2"
+            "id": "delivery-icon",
+            "size": 32,
+            "blockClass":"icon-submenu2"
         }
     },
     "link#delivery": {
+        "children": [
+            "icon#delivery"
+        ],
         "props": {
             "label": "Recibe en 48 horas",
             "href": "/linkToGif",
@@ -66,19 +68,19 @@
             "colSizing": "auto"
         },
         "children": [
-            "image#cmr",
             "link#cmr"
         ]
     },
-    "image#cmr": {
+    "icon#cmr": {
         "props": {
-            "src": "assets/icons/cmr.png",
-            "maxHeight": 28,
-            "maxWidth": 28,
-            "blockClass": "img-submenu2"
+            "id": "cmr-icon",
+            "size": 32
         }
     },
     "link#cmr": {
+        "children": [
+            "icon#cmr"
+        ],
         "props": {
             "label": "CMR Puntos",
             "href": "/linkToGif",
@@ -95,19 +97,20 @@
             "colSizing": "auto"
         },
         "children": [
-            "image#international",
             "link#international"
         ]
     },
-    "image#international": {
+    "icon#international": {
         "props": {
-            "src": "assets/icons/plane.png",
-            "maxHeight": 28,
-            "maxWidth": 28,
-            "blockClass": "img-submenu2"
+            "id": "plane-icon",
+            "size": 32,
+            "blockClass":"icon-submenu2"
         }
     },
     "link#international": {
+        "children": [
+            "icon#international"
+        ],
         "props": {
             "label": "Productos internacionales",
             "href": "/linkToGif",
@@ -124,19 +127,20 @@
             "colSizing": "auto"
         },
         "children": [
-            "image#refund",
             "link#refund"
         ]
     },
-    "image#refund": {
+    "icon#refund": {
         "props": {
-            "src": "assets/icons/refund.png",
-            "maxHeight": 28,
-            "maxWidth": 28,
-            "blockClass": "img-submenu2"
+            "id": "refund-icon",
+            "size": 32,
+            "blockClass":"icon-submenu2"
         }
     },
     "link#refund": {
+        "children": [
+            "icon#refund"
+        ],
         "props": {
             "label": "Devoluciones gratis",
             "href": "/linkToGif",

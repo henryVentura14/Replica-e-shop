@@ -11,10 +11,9 @@
 }
 
 .flexRowContent--header-submenu2 {
-  color: #666666;
-  margin-top: 1rem;
+  margin-top: .8rem;
   height: 64px !important;
-  padding-left: 6rem;
+  padding-left: 4.5rem;
   display: flex;
   justify-content: flex-start;
   justify-items: flex-start;
