@@ -3,7 +3,7 @@
         "title": "header-layout",
         "children": [
             "sticky-layout#desktop-top",
-            "sticky-layout#desktop-sub"
+            "flex-layout.row#desktop-submenu1"
         ]
     },
     "sticky-layout#desktop-top": {

@@ -1,23 +1,15 @@
 {
-    "sticky-layout#desktop-sub": {
+
+    "flex-layout.row#desktop-submenu1": {
         "props": {
-            "blockClass": "sticky-header-desktop2"
-        },
-        "children": [
-            "flex-layout.row#desktop2"
-        ]
-    },
-    "flex-layout.row#desktop2": {
-        "props": {
-            "horizontalAlign": "center",
-            "verticalAlign": "center",
+            "horizontalAlign": "left",
             "preventHorizontalStretch": true,
             "preventVerticalStretch": true,
-            "fullWidth": false
+            "fullWidth": true,
+            "blockClass": "header-submenu1"
         },
         "children": [
-            "menu#menu",
-            "flex-layout.col#spacer"
+            "menu#websites"
         ]
     }
 }

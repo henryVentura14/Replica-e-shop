@@ -20,9 +20,16 @@
   min-width: 32px;
 }
 :global(.vtex-sticky-layout-0-x-container--sticky-header-desktop2) {
-  background-color: red !important;
+  background-color: #f2f2f2 !important;
   display: flex;
-  justify-content: center;
-  justify-items: center;
+  justify-content: flex-start;
+  justify-items: flex-start;
+  align-items: center;
+  align-content: center;
   height: 32px !important;
+  color: #666666;
+}
+
+:global(.vtex-menu-2-x-styledLinkContent--submenu-header) {
+  color: #666666;
 }

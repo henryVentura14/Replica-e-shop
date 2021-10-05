@@ -1,0 +1,36 @@
+{
+    "menu#websites": {
+        "props": {
+            "orientation": "horizontal",
+            "blockClass": "submenu-header",
+            "items": [
+                {
+                    "id": "menu-item-shop",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Shop",
+                        "text": "Shop"
+                    }
+                },
+                {
+                    "id": "menu-item-about-us",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/about-us",
+                        "noFollow": false,
+                        "tagTitle": "about-us",
+                        "text": "About Us"
+                    }
+                }
+            ]
+        }
+    }
+}
