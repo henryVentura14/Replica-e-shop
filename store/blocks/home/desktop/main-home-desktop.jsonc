@@ -1,9 +1,13 @@
 {
-    "responsive-layout.desktop": {
+    "responsive-layout.desktop#main-home": {
         "title": "main-home-desktop",
         "children": [
             "slider-layout#main-slider-desktop",
             "slider-layout#second-slider-desktop"
-        ]
+            //"flex-layout.row#content-collage1"
+        ],
+        "props":{
+            "blockClass":"main-home"
+        }
     }
 }

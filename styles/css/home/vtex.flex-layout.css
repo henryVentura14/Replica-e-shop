@@ -1,0 +1,16 @@
+.flexRowContent--content-collage1 {
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  background-color: rebeccapurple;
+}
+
+.flexRow--content-collage1 {
+  max-width: 70%;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+}

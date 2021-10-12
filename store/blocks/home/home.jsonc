@@ -2,7 +2,7 @@
   "store.home": {
     "title": "home-container-mobile",
     "blocks": [
-      "responsive-layout.desktop",
+      "responsive-layout.desktop#main-home",
       "responsive-layout.mobile"
     ]
   }

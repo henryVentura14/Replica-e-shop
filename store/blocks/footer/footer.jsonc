@@ -1,21 +1,34 @@
 {
   "footer": {
-    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
-  },
-  "footer-layout.desktop": { 
-    "children": [
-      "flex-layout.row#footer"
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
     ]
   },
-  "footer-layout.mobile": { 
+  "footer-layout.desktop": {
     "children": [
-      "flex-layout.row#footer"
+      "flex-layout.row#footer",
+      "whatsapp-button"
     ]
   },
-  "flex-layout.row#footer": { 
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#footer",
+      "whatsapp-button"
+    ]
+  },
+  "flex-layout.row#footer": {
     "children": [
       "image"
     ]
+  },
+  "whatsapp-button": {
+    "props": {
+      "logo": "assets/images/whatsapp/whatsapp.png",
+      "phone": "3112138315",
+      "message": "Hello, soy Henry Ventura y me dedico al desarrollo web",
+      "size": "32px"
+    }
   },
   "image": {
     "props": {

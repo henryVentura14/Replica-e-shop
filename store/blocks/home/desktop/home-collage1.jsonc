@@ -1,0 +1,38 @@
+{
+    "flex-layout.row#content-collage1": {
+        "props": {
+            "horizontalAlign": "CENTER",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "blockClass": "content-collage1",
+            "colSizing": "auto",
+            "fullWidth": false,
+            "colGap":2,
+            "marginTop":10,
+            "paddingBotton":10
+        },
+        "children": [
+            "image#image1-collage1",
+            "image#image2-collage1",
+            "image#image3-collage1"
+        ]
+    },
+    "image#image1-collage1": {
+        "props": {
+            "src": "assets/images/collage/celulares.png",
+            "maxHeight": "100%"
+        }
+    },
+    "image#image2-collage1": {
+        "props": {
+            "src": "assets/images/collage/tenis.png",
+            "maxHeight": "100%"
+        }
+    },
+    "image#image3-collage1": {
+        "props": {
+            "src": "assets/images/collage/computo.png",
+            "maxHeight": "100%"
+        }
+    }
+}
